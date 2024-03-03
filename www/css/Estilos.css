@@ -1,0 +1,179 @@
+:root {
+    --ion-color-primary: #006600;
+    --ion-color-primary-rgb: 0, 102, 0;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb: 255, 255, 255;
+    --ion-color-primary-shade: #005a00;
+    --ion-color-primary-tint: #1a751a;
+}
+
+/* Clases generales */
+
+.textoImportante{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.textoReferencia{
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.visually-hidden{
+  visibility: hidden;
+  display: none;
+}
+
+.contenedorCentrado{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorCentradoColumnas{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3vw;
+}
+
+.titulos{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+
+/* Tablas */
+
+th{
+  background-color: #1a751a;
+  color: white;
+  font-weight: bolder;
+}
+
+td{
+  border-bottom: 1.5px solid rgb(217, 218, 217);
+}
+
+td,th{
+  text-align: center;
+  padding: 10px;
+}
+
+table{
+  margin-top: 2vw;
+  width: 90%;
+}
+
+.btnTable{
+  color: rgb(209, 33, 33);
+  font-weight: bold;
+  background-color: transparent;
+}
+
+/* Texto */
+
+h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.rem;
+}
+
+
+/* Alert Tarjetas */
+
+.btnSalir{
+  color: white;
+  font-weight: bold;
+}
+
+.danger{
+    background-color: rgba(236, 53, 53, 0.3);
+    font-weight: bold;
+}
+
+.success{
+  background-color: rgba(9, 124, 9, 0.3);
+  color: white;
+  border: black;
+}
+
+.primary{
+  background-color: rgba(60, 25, 218, 0.3);
+  color: white;
+  border: black;
+}
+
+.textDanger{
+  color: rgb(236, 53, 53);
+}
+
+
+.textSuccess{
+  color: rgb(9, 124, 9);
+}
+
+
+.textPrimary{
+  color: rgb(60, 25, 218);
+}
+
+
+/* Formularios */
+
+.button-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+
+/* Paginado */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #4CAF50;
+}
+.pagination {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 3vw;
+}
+.pagination button {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination button.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+/* Mapa */
+#mapa { 
+  height: 350px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+ion-loading.custom-loading {
+  --background: #e3edff;
+  --spinner-color: #4CAF50;
+
+  color: #4CAF50;
+}
